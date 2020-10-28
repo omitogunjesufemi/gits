@@ -5,13 +5,13 @@ def main():
 
 def sum_of_integars(integar_inputs, lengths):
     integars = int(integar_inputs)
-    store_digits = []
+    store_digit = []
     zero = int(0)
 
     while lengths > 1:
         digit = integars % 10
         extracted = integars // 10
-        store_digits.append(digit)
+        store_digit.append(digit)
         sumofDigit = digit + zero
         zero = sumofDigit
         
@@ -20,10 +20,10 @@ def sum_of_integars(integar_inputs, lengths):
         lengths = len(newInt)
         
         if lengths == 1:
-            store_digits.append(integars)
+            store_digit.append(integars)
             result = sumofDigit + integars
 
-    print(store_digits)
+    print(store_digit)
     print(result)
 
 main()
