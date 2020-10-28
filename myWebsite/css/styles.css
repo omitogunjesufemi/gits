@@ -29,3 +29,14 @@ a:active {
   color: yellowgreen;
   background-color: transparent;
 }
+.numbers {
+  color: blue;
+  background-color: cornsilk;
+  text-align: center;
+}
+
+.answer {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  background-color: khaki;
+}
