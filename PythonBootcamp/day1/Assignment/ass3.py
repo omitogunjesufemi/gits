@@ -1,0 +1,8 @@
+print("Welcome New User")
+name = str(input("Please enter your full name: "))
+age = int(input("Please enter your age: "))
+phone = int(input("Please enter your phone number: "))
+print("New User:")
+print("Name: " +name)
+print("Age: " +age)
+print("Phone Number: " +phone)

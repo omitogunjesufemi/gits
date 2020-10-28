@@ -1,0 +1,20 @@
+JAVA SCRIPT
+    Data types and Structures
+
+install quokka extension
+
+            DAY 4
+profile.name - Dot Notation
+An object consist of a property
+
+Assignment
+Create an account balance system
+    Create the name of the account owner
+    Create the user initial account balance
+    Create the amount the user want to withdraw
+    Create a boolean value to check if the user have an access to an overdraft
+    Check if the user is withdrawing below what they have as total balance. 
+        Return a message with the user name and success message.
+    Check if the withdraw amount is greater than the balance and the user is granted an overdraft.
+        If the above is true, return a message with the user name and success message, else, 
+        return an error message.

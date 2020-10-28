@@ -1,0 +1,32 @@
+10 Extensions to install on VS Code
+1. Advanced-New-File
+2. Auto import
+3. Auto Rename Tag
+4. Bracket Pair Colorizer 2
+5. CSS Peek
+6. ES Lint
+7. File Utils
+8. HTML CSS support
+9. Live Server
+10. Prettier - Code formatter
+11. Live Share
+
+Basic Shortcode on VS Code
+1.  Ctrl + B - Close and Reopen sidebar
+2.  Ctrl + , - Open Settings
+3.  Ctrl + K + arrowdown - Close Settings
+4.  Ctrl + Shift + E -  Open Explorer
+5.  Ctrl + Shift + F - Open Search
+6.  Ctrl + Shift + G - Open Source Control
+7.  Ctrl + Shift + D - Open Run / Debug
+8.  Ctrl + Shift + X - Open Extension Marketplace
+
+HTML
+<h1> to <h6> - Heading level or size (The bigger the number the smaller the size).
+The first line is a declaratuion statement - (<!DOCTYPE html>)
+Adding a comment in html  - <!-- Comment -->
+Empty element don't have closing tags e.g. - <br>
+
+Assignment
+w3school.com - Read from HTML editor to HTMLCSS
+
