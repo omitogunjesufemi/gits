@@ -7,6 +7,11 @@ body {
   margin: 15px;
 }
 
+.calc {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   text-align: center;
   color: whitesmoke;
@@ -59,7 +64,8 @@ nav {
 
 input,
 textarea {
-  display: block;
+  display: flex;
+  align-content: center;
   margin-bottom: 10px;
 }
 label {
@@ -67,15 +73,13 @@ label {
   font-weight: bold;
 }
 
-table,
-th,
-td {
-}
-
-th {
-  background-color: yellow;
-}
-
-.record-form {
-    
+input[type="button"] {
+  display: inline;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(0, 8, 85);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 2px;
 }

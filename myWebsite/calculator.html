@@ -17,48 +17,38 @@
     </nav>
     <div class="container">
       <h1>My Calculator</h1>
-      <div>
+      <div class="calc">
         <form action="">
-          
-            <input
-              type="text"
-              name="num1"
-              id="num1"
-              placeholder="Enter your first number"
-              class="numbers"
-            />
-          </div>
-          <br />
+          <input
+            type="text"
+            name="num1"
+            id="num1"
+            placeholder="Enter your first number"
+            class="numbers"
+          />
 
-          <div>
-            <input
-              type="text"
-              name="num2"
-              id="num2"
-              placeholder="Enter your second number"
-              class="numbers"
-            />
-          </div>
-          <br />
-          <div>
-            <input
-              type="text"
-              name="result"
-              id="result"
-              class="numbers answer"
-              value="0"
-            />
-          </div>
-          <br />
-          <div class="record-form">
+          <input
+            type="text"
+            name="num2"
+            id="num2"
+            placeholder="Enter your second number"
+            class="numbers"
+          />
+
+          <input
+            type="text"
+            name="result"
+            id="result"
+            class="numbers answer"
+            value="0"
+          />
           <input type="button" value="Add" onclick="addClick()" />
           <input type="button" value="Subtract" onclick="subClick()" />
           <input type="button" value="Divide" onclick="divClick()" />
           <input type="button" value="Multiply" onclick="mulClick()" />
           <input type="button" value="Modulus" onclick="modClick()" />
-          </div>
         </form>
-     </div>
+      </div>
     </div>
     <script src="js/app.js"></script>
   </body>
