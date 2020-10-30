@@ -1,3 +1,81 @@
-body{
-    background-color: orange;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+}
+.container {
+  margin: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+#demo {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.text-primary {
+  color: red;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  background-color: yellowgreen;
+  padding: 7px;
+  border: 2px solid white;
+}
+
+nav a:hover {
+  background-color: yellow;
+  color: teal;
+}
+
+nav {
+  background-color: teal;
+  padding: 15px;
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+label {
+  color: white;
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+}
+
+th {
+  background-color: yellow;
+}
+
+.record-form {
+    
 }

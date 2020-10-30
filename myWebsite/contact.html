@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/img2.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <title>Contact</title>
   </head>
 
@@ -16,45 +16,43 @@
       <a href="record.html">Record</a>
       <a href="Calculator.html">Calculator</a>
     </nav>
-    <h1>Contact Form</h1>
-    <form action="" method="" enctype="multipart/form-data" autocomplete = on>
-      <label for="name">Name: </label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Enter your Full name"
-      />
-      <br /><br />
+    <div class="container">
+      <h1>Contact Form</h1>
+      <div class="contact-form">
+        <form action="" method="" enctype="multipart/form-data">
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your Full name"
+          />
 
-      <label for="email">Email: </label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Enter your e-mail address"
-      />
-      <br /><br />
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your e-mail address"
+          />
 
-      <label for="subject">Message Subject: </label>
-      <input
-        type="text"
-        name="subject"
-        id="subject"
-        placeholder="Subject of the message"
-      />
-      <br /><br />
+          <label for="subject">Message Subject: </label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject of the message"
+          />
 
-      <label for="documenet">Upload File</label>
-      <input type="file" name="document" id="document" />
-      <br /><br />
+          <label for="documenet">Upload File</label>
+          <input type="file" name="document" id="document" />
 
-      <label for="message">Message</label><br />
-      <textarea name="message" id="message" cols="20" rows="10"></textarea>
-      <br /><br />
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="20" rows="10"></textarea>
 
-      <button type="submit">Send Message</button>
-    </form>
-    <a href="mailto:omitogunjesufemi@gmail.com">Send Email</a>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
